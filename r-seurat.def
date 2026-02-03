@@ -54,7 +54,7 @@ From: rocker/tidyverse:latest
     R -e "install.packages('jsonlite', repos='https://cloud.r-project.org/')"
     
     # Install Seurat (your base requirement)
-    # R -e "install.packages('Seurat', repos='https://cloud.r-project.org/')"
+    R -e "install.packages('Seurat', repos='https://cloud.r-project.org/')"
     
     # Optional: Install project local packages into rebuilt container
     # These are libraries found in R_libs outside the container

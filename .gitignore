@@ -1,0 +1,13 @@
+# Data files
+*.rds
+*.csv
+*.tsv
+*.txt
+!connection_info.txt
+
+# R package library
+R_libs/
+
+# Singularity container and build log
+*.sif
+singularity_build.out
